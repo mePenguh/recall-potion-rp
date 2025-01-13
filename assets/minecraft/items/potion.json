@@ -1,0 +1,20 @@
+{
+  "model": {
+      "type": "condition",
+      "property": "custom_model_data",
+      "on_true": {
+          "type": "minecraft:model",
+          "model": "recall_potion:item/recall_potion"
+      },
+      "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/potion",
+          "tints": [
+              {
+                  "type": "minecraft:potion",
+                  "default": -13083194
+              }
+          ]
+      }
+  }
+}
